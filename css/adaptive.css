@@ -1,0 +1,172 @@
+@media screen and (device-height:768px) and (min-width:1200px) {
+  .view .item_list .item_pic img{height: 210px;}
+  .view .item_list .text_2 img{height: 210px;}
+  .view .tabs_items .item p{font-size: 18px; line-height: 21px;}
+  .benefit .image_block{height: 550px;}
+  .benefit .list_block .item{margin-bottom: 10px;}
+  .benefit .list_block .row{margin-bottom: -10px;}
+  .gallery .gallery_slider .carousel_top .slide1{height: 310px;}
+  .gallery .gallery_slider .carousel_bot .slide1{height: 80px;}
+  .excursion .image_block img{height: 500px;}
+}
+
+@media screen and (device-height:768px) and (max-width:1200px) {
+  .view .item_list .item_pic img{height: 200px;}
+  .view .item_list .text_2 img{height: 210px;}
+  .view .tabs_items .item p{font-size: 18px; line-height: 21px;}
+  .benefit .image_block{height: 550px;}
+  .benefit .list_block .item{margin-bottom: 10px;}
+  .benefit .list_block .row{margin-bottom: -10px;}
+  .gallery .gallery_slider .carousel_top .slide1{height: 310px;}
+  .gallery .gallery_slider .carousel_bot .slide1{height: 80px;}
+  .excursion .image_block img{height: 500px;}
+}
+
+@media screen and (min-width: 1000px) {
+  .section{position: relative; box-sizing: border-box; height: 100vh; overflow: hidden;}
+  .inner{height: 100%;}
+  #fp-nav{position: fixed; top: 50%; right: 120px; z-index: 1000; display: block !important; height: 100vh;}
+  #fp-nav ul li{cursor: pointer;}
+  #fp-nav ul li + li{margin-top: 20px;}
+  #fp-nav ul li a{display: block; background-color: #000; width: 20px; height: 2px; float: right;}
+  #fp-nav ul li a.active{width: 40px;}
+  #fp-nav ul{position: relative; height: 100%; display: flex; flex-direction: column; justify-content: center;}
+  .view .tabs_links{display: block ! important;}
+  .view .tabs_items{display: block ! important;}
+}
+
+@media screen and (max-width: 1500px) {
+  #fp-nav ul{display: none;}
+}
+
+@media screen and (max-width: 1200px) {
+  .work .big_slider{width: 900px; margin: 0 auto;}
+  .work .slider_1 .text_block h3{font-size: 30px; line-height: 35px;}
+  .work .slider_1 .image_block{width: 380px;}
+  .gallery .gallery_slider{width: 900px; margin: 0 auto;}
+  .work .slider_1 .text_block{width: 390px;}
+  .view .item_list .text_2 img{height: 200px;}
+  .view .tabs_items .item p{font-size: 16px;}
+}
+
+@media screen and (max-width: 1000px) {
+  #fp-nav{display: none;}
+  .fp-tableCell{height: auto !important;}
+  .section{padding: 50px 0; height: auto !important;}
+  .service{padding-bottom: 110px;}
+  .investment .title{margin: 40px 0;}
+  .investment .title h1{max-width: 100%; font-size: 55px; line-height: 60px;}
+  .choice .choice_content{margin: 40px 0;}
+  .choice .title h2{font-size: 35px; line-height: 40px;}
+  .service .title{margin: 40px 0;}
+  .service .title h2{max-width: 100%; font-size: 35px; line-height: 40px;}
+  .service .title p{max-width: 100%;}
+  .investment .title p{max-width: 100%;}
+  .view .view_content{margin: 40px 0;}
+  .view h2{font-size: 35px; line-height: 40px; margin-bottom: 20px;}
+  .view .item_list{flex-direction: column;}
+  .view .item_text{width: 100%; margin-bottom: 25px;}
+  .view .item_pic{width: 100%;}
+  .view .tabs_links ul{flex-direction: column;}
+  .view .tabs_links ul li{max-width: 310px; margin: 0 auto;}
+  .work .work_content{margin: 40px 0;}
+  .work h2{font-size: 35px; line-height: 40px;}
+  .work .slider_1 .image_block span{border-radius: 10px; background-size: cover;}
+  .work .slider_1 .image_block{border-radius: 10px;}
+  .detail .detail_content{flex-direction: column; margin: 40px 0;}
+  .detail h2{font-size: 40px; line-height: 50px; margin-bottom: 25px; max-width: 100%;}
+  .detail .title{margin-bottom: 25px;}
+  .benefit .benefit_content{margin: 40px 0; flex-direction: column;}
+  .benefit .benefit_text{width: 100%; margin-bottom: 35px;}
+  .benefit .image_block{width: 100%; height: 500px;}
+  .benefit .benefit_text h2{font-size: 35px; line-height: 40px; max-width: 100%;}
+  .benefit .image_block span{background-size: cover;}
+  .gallery .gallery_content{margin: 40px 0;}
+  .gallery h2{font-size: 35px; line-height: 40px;}
+  .excursion .image_block{margin: 40px 0;}
+  .excursion .image_block a{margin-bottom: 0;}
+  .view .tabs_links{display: none;}
+  .view .tabs_items{display: none;}
+  .view .question_block{display: block;}
+  .view .question_block .question_text{text-transform: uppercase; padding-right: 30px; box-sizing: border-box;}
+  .view .question_block .answer_text{font-size: 16px; margin-top: 20px;}
+  .view .question_block .question::after{content: ""; position: absolute; display: block; background: url(../img/arrow_2.png) no-repeat center center; background-size: contain; width: 30px; height: 30px; top: 50%; right: 0; transform: translateY(-50%); z-index: 5;}
+  .view .question_block .question.active::after{transform: rotate(180deg); margin-top: -15px;}
+  .view .question_block .answer_text .item_pic img{position: relative; display: block; width: 100%; height: 300px; background-size: contain;}
+  .view .question_block .answer_text .item_pic img + img{margin-top: 30px;}
+  .view .question_block .answer_text .text_2 img{position: relative; display: block; width: 100%; height: auto; margin: 20px auto;}
+  .view .question_block .question_answer + .question_answer{margin-top: 25px;}
+  .work .slider_1 .text_block .title h3{font-size: 30px; line-height: 35px;}
+}
+
+@media screen and (max-width: 950px) {
+  .slider_1 .slide{flex-direction: column;}
+  .work .slider_1 .image_block{width: 100%; margin-bottom: 25px;}
+  .work .slider_1 .text_block{width: 100%;}
+  .work .big_slider{width: 100%;}
+  .gallery .gallery_slider{width: 100%;}
+  .work .slider_1{width: 100%;}
+  .work .slider_1 .image_block{margin-right: 0;}
+  .work .slider_1 .text_block .title h3 i{display: none;}
+}
+
+@media screen and (max-width: 900px) {
+  .choice .choice_content{flex-direction: column;}
+  .choice .choice_content .title{width: 100%; margin-bottom: 25px;}
+  .choice .title h2{max-width: 100%;}
+  .choice .choice_pic{width: 100%;}
+  .gallery .gallery_slider .carousel_bot .slide1{padding: 0 10px;}
+  .gallery .gallery_slider{padding: 20px 10px;}
+}
+
+@media screen and (max-width: 700px) {
+  .header .header_content{flex-direction: column;}
+  .header .logo{margin-bottom: 25px;}
+  .investment .title h1{font-size: 45px; line-height: 50px;}
+  .popup{width: 100%; padding: 30px 10px;}
+  #spasibo{width: 100%; padding: 30px 10px;}
+  .popup h3{font-size: 24px; line-height: 35px;}
+  #spasibo h3{font-size: 24px; line-height: 35px;}
+  .view .question_block .answer_text .text_2 img{width: 100%;}
+}
+
+@media screen and (max-width: 550px) {
+  .header .header_link{flex-direction: column; width: 100%; text-align: center;}
+  .header .order{margin-top: 25px;}
+  .investment .title h1{font-size: 35px; line-height: 40px; text-align: center;}
+  .investment .title a{margin: 0 auto;}
+  .investment .title p{text-align: center;}
+  .choice .choice_pic .item{width: 100%; padding: 0;}
+  .choice .choice_pic .ROW{margin: 0; margin-bottom: -30px;}
+  .choice .choice_pic .item:nth-child(2) .image_block{height: 220px;}
+  .choice .title h2{font-size: 30px; line-height: 35px; text-align: center;}
+  .choice .title p{text-align: center;}
+  .choice .title a{margin: 40px auto 0;}
+  .service .title h2{text-align: center; font-size: 30px; line-height: 35px;}
+  .service .title p{text-align: center;}
+  .service .title a{margin: 40px auto 0;}
+  .view h2{text-align: center; font-size: 30px; line-height: 35px;}
+  .view .item_list .text_2 img{width: 100%;}
+  .view .tabs_links{padding: 10px 5px;}
+  .view .tabs_links ul li span{font-size: 14px;}
+  .work h2{font-size: 30px; line-height: 35px;}
+  .work .big_slider{padding: 20px 10px 70px; position: relative; z-index: 9;}
+  .work .slider_1 .text_block h3{font-size: 24px; line-height: 30px;}
+  .work .slider_1 .slide{margin: 0 3px;}
+  .work .slider_1 .income{font-size: 14px;}
+  .detail .image_block img{width: 100%;}
+  .detail h2{font-size: 30px; line-height: 35px; text-align: center;}
+  .detail .title a{margin: 30px auto 0;}
+  .benefit .list_block .item{width: 100%; padding: 0;}
+  .benefit .list_block .row{margin: 0; margin-bottom: -15px; text-align: center;}
+  .benefit .list_block img{margin: 0 auto 15px;}
+  .benefit .benefit_text h2{font-size: 30px; line-height: 35px; text-align: center;}
+  .benefit .image_block{height: 350px;}
+  .gallery h2{font-size: 30px; line-height: 35px;}
+  .gallery .gallery_slider .carousel_bot .slide1{padding: 0 2px; height: 60px;}
+  .gallery .gallery_slider .owl-next::after{top: 14px;}
+  .gallery .gallery_slider .owl-prev::after{top: 44px;}
+  .popup .popup_form button{width: 100%;}
+  .view .question_block .answer_text .item_pic img{object-fit: cover;}
+  .work .slider_1 .text_block .title h3{font-size: 25px; line-height: 30px;}
+}
